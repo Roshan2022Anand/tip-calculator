@@ -1,0 +1,80 @@
+* {
+    color: white;
+
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    margin: 1em auto;
+    background-color: #2a2638;
+    width: 85vw;
+    height: 90vh;
+    border-radius: 10px;
+}
+
+#logo {
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 5vw;
+}
+
+.totalAmt {
+    width: 90%;
+    margin: 1em auto;
+}
+
+.tipAmt {
+    width: 90%;
+    margin: 1em auto;
+}
+
+input {
+    border: white;
+    background-color: #051e30;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.main {
+    width: 90%;
+    margin: 1px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#peopleCount {
+    font-size: 5vw;
+    color: white;
+}
+
+button {
+    margin: 1px 2vw;
+    border: transparent;
+    color: white;
+    border-radius: 50%;
+    background-color: #000091;
+}
+
+#billLogo {
+    margin-left: auto;
+    color: white;
+    font-size: 3vw;
+}
+
+#billAmt {
+    font: 3vw;
+    color: white;
+    text-align: right;
+}

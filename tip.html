@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="tip.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="container">
+        <p id="logo">Tip Calculator</p>
+        <div class="totalAmt">
+            <p>Total Amount</p><input id="totalAmt" type="number" oninput="calculateBill()" placeholder="0.00">
+        </div>
+        <div class="tipAmt">
+            <p>Tip Amount</p><input id="tipAmt" type="number" oninput="calculateBill()" placeholder="0%">
+        </div>
+        <div class="main">
+            <button id="increaseCount" onclick="increaseOpt()">+</button>
+            <div id="peopleCount">1</div>
+            <button id="decreaseCount" onclick="decreaseOpt()">-</button>
+            <div id="billLogo">
+                BILL
+            </div>
+        </div>
+        <div id="billAmt"></div>
+
+    </div>
+    <script src="tip.js"></script>
+</body>
+
+</html>
